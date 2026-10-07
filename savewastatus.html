@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Save WA Status</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            color: #1e293b; 
+            max-width: 820px; 
+            margin: 0 auto; 
+            padding: 30px 20px; 
+            background-color: #f8fafc; 
+        }
+        h1 { 
+            color: #0f766e; 
+            border-bottom: 2px solid #99f6e4; 
+            padding-bottom: 12px; 
+        }
+        h2 { 
+            color: #0d9488; 
+            margin-top: 28px; 
+        }
+        p, li { 
+            font-size: 15px; 
+            color: #334155; 
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-card { 
+            background-color: #f0fdfa; 
+            border-left: 4px solid #14b8a6; 
+            padding: 16px 20px; 
+            border-radius: 6px; 
+            margin: 20px 0; 
+        }
+        .disclaimer-card {
+            background-color: #fef2f2;
+            border-left: 4px solid #ef4444;
+            padding: 16px 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #e2e8f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        a {
+            color: #0d9488;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #0f766e;
+        }
+        .meta-box {
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Save WA Status</h1>
+    
+    <div class="meta-box">
+        <strong>Application ID:</strong> <code>com.statuscomuntazir.statusforwhatsappvidpic</code><br>
+        <strong>Effective Date:</strong> October 7, 2026<br>
+        <strong>Developer Contact:</strong> Syed Muntazir Imam (mehditechnologiesofficial@gmail.com)
+    </div>
+
+    <div class="highlight-card">
+        <strong>Privacy Commitment:</strong> Save WA Status operates with a strict <em>local-first architecture</em>. We do not transmit, collect, or store your photos, videos, messages, contacts, or chat logs on any external servers or cloud services.
+    </div>
+
+    <h2>1. Scope & Android Scoped Storage Compliance</h2>
+    <p>Save WA Status is a client-side utility developed to assist users in saving, viewing, and organizing status photos and videos already saved locally on their device via WhatsApp and WhatsApp Business.</p>
+    <ul>
+        <li><strong>Storage Access Framework (SAF):</strong> In full accordance with modern Google Play storage guidelines (Android 14, 15, and 16 / Target SDK 36), the application requests localized directory access using Android's standard <code>ACTION_OPEN_DOCUMENT_TREE</code>. The user explicitly selects and authorizes access to the status directory.</li>
+        <li><strong>No Full Storage Permission:</strong> We do not ask for or use broad storage permissions (such as <code>MANAGE_EXTERNAL_STORAGE</code>).</li>
+        <li><strong>Local Processing Only:</strong> All media operations—viewing, thumbnail generation, saving to gallery, and temporary cache cleaning—are executed entirely offline on your device.</li>
+    </ul>
+
+    <h2>2. Data We Do NOT Collect</h2>
+    <p>To ensure total user peace of mind, our application explicitly does NOT collect, store, or sell:</p>
+    <ul>
+        <li>Names, email addresses, phone numbers, or account credentials.</li>
+        <li>WhatsApp chat logs, private conversations, voice messages, or text content.</li>
+        <li>Contacts list, address book, or personal call history.</li>
+        <li>Precise GPS location data.</li>
+    </ul>
+
+    <h2>3. Direct Chat Feature (No Contact Save)</h2>
+    <p>The Direct Chat feature allows users to initiate a WhatsApp or WA Business conversation without saving the recipient's phone number into their contacts.</p>
+    <ul>
+        <li>The phone number and optional message entered by the user are passed directly into the official WhatsApp URL handler (<code>https://wa.me/</code> or <code>api.whatsapp.com</code>).</li>
+        <li>No entered phone numbers or typed messages are recorded, saved, or sent to any third-party analytics or databases.</li>
+    </ul>
+
+    <h2>4. Temporary Storage & Cache Cleaner</h2>
+    <p>The built-in Cache Cleaner feature scans only the application's internal temporary cache directory (such as cached video frame thumbnails) and deletes them upon user request to free up device memory. It never deletes files from your phone's personal gallery or permanent folders.</p>
+
+    <h2>5. Third-Party Advertising (Google AdMob)</h2>
+    <p>To maintain Save WA Status as a free tool, we integrate Google AdMob (Google Mobile Ads SDK v23.x+). Google AdMob may collect pseudonymous diagnostic and device identifiers, such as:</p>
+    <ul>
+        <li>Google Advertising ID (AAID) for ad serving and fraud detection.</li>
+        <li>Device performance, carrier info, and crash diagnostic logs.</li>
+    </ul>
+    <p>All ad network communications are encrypted in transit over secure HTTPS. For detailed information regarding how Google processes advertising data, please consult the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+
+    <h2>6. Background Status Alert Notifications</h2>
+    <p>If you enable the Status Alert feature, a background worker (Android WorkManager) checks locally on your device for newly added files in your authorized status folder. This operation is performed completely on-device without network transmission.</p>
+
+    <div class="disclaimer-card">
+        <strong>Legal & Trademark Disclaimer:</strong><br>
+        "WhatsApp" is a registered trademark of WhatsApp LLC and Meta Platforms, Inc.<br>
+        Save WA Status is an independent media utility developed by Syed Muntazir Imam. This application is <strong>NOT</strong> affiliated with, associated with, authorized by, endorsed by, or in any way officially connected with WhatsApp LLC or Meta Platforms, Inc.<br>
+        Users are solely responsible for respecting the intellectual property and copyright of media content before reposting or distributing.
+    </div>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Our app does not knowingly address or collect personal information from children under the age of 13.</p>
+
+    <h2>8. Contact Information</h2>
+    <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us at:</p>
+    <p>
+        <strong>Developer:</strong> Syed Muntazir Imam<br>
+        <strong>Email:</strong> <a href="mailto:mehditechnologiesofficial@gmail.com">mehditechnologiesofficial@gmail.com</a>
+    </p>
+
+</body>
+</html>
