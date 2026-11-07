@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - VisaInquire | Mehdi Technologies</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            max-width: 840px;
+            margin: 0 auto;
+            padding: 36px 20px;
+            background-color: #f8fafc;
+        }
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 36px 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .badge {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 10px;
+            border-radius: 9999px;
+            border: 1px solid #bae6fd;
+            margin-bottom: 12px;
+        }
+        h1 {
+            color: #0f172a;
+            font-size: 28px;
+            font-weight: 800;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px;
+        }
+        .effective-date {
+            color: #64748b;
+            font-size: 13px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: #0f172a;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 28px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 6px;
+        }
+        p, li {
+            font-size: 14px;
+            color: #334155;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .highlight-card {
+            background-color: #f0fdf4;
+            border-left: 4px solid #16a34a;
+            padding: 14px 18px;
+            border-radius: 8px;
+            margin: 18px 0;
+            font-size: 14px;
+            color: #166534;
+        }
+        .action-card {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 16px 20px;
+            border-radius: 10px;
+            margin: 16px 0;
+        }
+        code {
+            background-color: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #0f172a;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        }
+        a {
+            color: #0284c7;
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 36px;
+            padding-top: 18px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 12px;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Legal & Data Protection</span>
+        <h1>Privacy Policy for VisaInquire</h1>
+        <div class="effective-date">
+            <strong>Effective Date:</strong> October 30, 2026 &bull; Applicable to VisaInquire Mobile Application (Android/iOS) and Web Portal.
+        </div>
+
+        <div class="highlight-card">
+            <strong>Data Safety Commitment:</strong> We strictly do NOT sell, rent, monetize, or disclose your personal data or uploaded immigration documents to third-party advertising networks.
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>
+            VisaInquire ("we", "our", "us"), operated and maintained by <strong>Mehdi Technologies</strong>, is a specialized multi-tenant client portal software platform provided to licensed immigration consultants, visa processing agencies, and their authorized applicants. This Privacy Policy describes how we collect, use, process, and safeguard applicant and client information when you use the VisaInquire Mobile Application (Application ID: <code>com.mehditechnologies.visainquire</code>) and its web dashboards.
+        </p>
+
+        <h2>2. Information We Collect</h2>
+        <p>To provide transparent visa status tracking and document compliance verification, we collect:</p>
+        <ul>
+            <li><strong>Personal Identification Data:</strong> Full Name, Email Address, Phone Number, Date of Birth.</li>
+            <li><strong>Government Identification:</strong> Passport Number and National Identity details (specifically for verifying visa requirements).</li>
+            <li><strong>Uploaded Documents & Files:</strong> Passport scans, financial statements, educational certificates, photos, and PDF files uploaded by applicants for case evaluation.</li>
+            <li><strong>Device & Notification Tokens:</strong> Firebase Cloud Messaging (FCM) device push tokens to deliver live updates when documents are reviewed or milestones advance.</li>
+        </ul>
+
+        <h2>3. How Information Is Used</h2>
+        <p>All collected data is strictly utilized for:</p>
+        <ul>
+            <li>Facilitating document submission between applicants and their authorized visa agency.</li>
+            <li>Delivering push notifications regarding case milestones and verification reviews.</li>
+            <li>Securely hosting client records in encrypted cloud storage (Cloudflare R2 and Supabase PostgreSQL).</li>
+            <li>Preventing unauthorized account access through credential authentication.</li>
+        </ul>
+
+        <h2>4. Permissions Required by Mobile App</h2>
+        <ul>
+            <li><strong>Camera (<code>android.permission.CAMERA</code>):</strong> Used solely when the applicant chooses to capture a live photograph of physical documents or passport pages.</li>
+            <li><strong>Photos & Storage:</strong> Used solely to allow applicants to pick document PDFs and image scans from device storage for upload.</li>
+            <li><strong>Notifications (<code>android.permission.POST_NOTIFICATIONS</code>):</strong> Used to deliver immediate status alerts when documents are approved or need re-upload.</li>
+        </ul>
+
+        <h2>5. Data Security & Encryption</h2>
+        <p>
+            All data transmission between your device, our servers, and storage vaults is protected using industry-standard TLS/HTTPS encryption with 256-bit certificates. Documents stored on Cloudflare R2 are secured using access-controlled signed buckets.
+        </p>
+
+        <h2>6. Data Retention & User Account Deletion</h2>
+        <p>
+            Applicants may request full deletion of their uploaded documents and personal records at any time. To request account deletion or data removal:
+        </p>
+        <div class="action-card">
+            <strong>Data Deletion Request:</strong>
+            <p style="margin: 6px 0 0 0; font-size: 13px;">
+                Send an email to <a href="mailto:mehditechnologiesofficial@gmail.com">mehditechnologiesofficial@gmail.com</a> with your registered Case ID or passport number. Your account and all associated documents will be permanently purged within 7 business days.
+            </p>
+        </div>
+
+        <h2>7. Government Affiliation Disclaimer</h2>
+        <p>
+            VisaInquire is an independent private technology software platform developed by Mehdi Technologies. VisaInquire is NOT affiliated with, sponsored by, or an official representative of any government embassy, consulate, or state immigration department.
+        </p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or privacy inquiries, contact our Data Protection Officer:</p>
+        <p>
+            <strong>Mehdi Technologies</strong><br>
+            Email: <a href="mailto:mehditechnologiesofficial@gmail.com">mehditechnologiesofficial@gmail.com</a><br>
+            Website: <a href="https://visainquire.mehditechnologies.com" target="_blank">https://visainquire.mehditechnologies.com</a>
+        </p>
+
+        <div class="footer">
+            &copy; 2026 Mehdi Technologies. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
